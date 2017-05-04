@@ -1,0 +1,104 @@
+/* css myLunarStyles.css */
+
+/* font-family: 'Supermercado One', cursive; */
+/* font-family: 'Fascinate', cursive; */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/space.jpg");
+	height: 1000px;
+
+
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	text-align:center;
+	font-size: 5em;
+	font-family: 'Fascinate', cursive;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff9900;
+	background-image: url("../images/space2.jpg");
+	color: #4d0099;  /* purple */
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	font-family: 'Supermercado One', cursive;
+	padding-top:5px;	
+	padding-bottom: 10px;
+	background-color: black;
+	color: #ff9900;  /* orange */
+	
+}
+
+
+#menuBar{
+	width: 100%;
+	height: 48px;
+    margin: 0;
+    padding: 0;
+    background-color: #4d0099;
+
+}
+
+.menuItem {
+  	font-family: 'Supermercado One', cursive;
+	font-size: 1.75em;
+    background-color: #4d0099;
+    color: red;
+    float: left;
+    width: 33%;
+    margin:0;
+    padding: 0;
+    padding-top: 10px;
+    text-align: center;
+    border: 2px solid #4d0099;
+}
+
+
+button:focus { outline: none; }
+
+button:hover {
+	color: #ff9900;  /* orange */
+}
+
+#timeBox{
+    border: 2px solid #4d0099;
+    /* background-color: white; */
+    color: red;
+
+}
+
+#myGameAreaDiv{
+	width: 100%;
+    text-align: center;
+}
+
+#myGameArea{
+	width: 600px;
+	height: 700px;
+	display: block;
+	/* background-color:  #ffe6b3; */ /* playful orange */
+	background-color: black;
+	border: 2px solid #4d0099;  /* purple */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	border: 2px solid #4d0099;  /* purple */
+	position: relative;
+}
+
+
+#moon { 
+	position: absolute; 
+	bottom: 0; 
+	left: 0;
+	width:100%;
+}
+
