@@ -71,7 +71,7 @@ function setLanderAtTopAndTargetAtBottom(){
 
     //Set the Target
     targetY = gameAreaHeight - 75;
-    targetX = Math.round(Math.random() * (gameAreaWidth-110)) + 55;
+    targetX = Math.round(Math.random() * (gameAreaWidth-110));
     targetImage.style.top = targetY + 'px';
     targetImage.style.left = targetX + 'px';
 
@@ -185,7 +185,7 @@ document.getElementById("resetButton").onclick = resetAnimation;
 // -- set up for grabbing key strokes
 document.onkeydown = function(e) {
 
-	 if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+	if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
         e.preventDefault();
     }
     
